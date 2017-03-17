@@ -3,6 +3,8 @@ A simple (intuitive) notebook webapp
 
 ###### I've been doing back-end only projects for a while (without Databases), and was in the mood to try something new. This is my first application to use [MongoDB](https://www.mongodb.com/), my first use of [express-handlebars](https://github.com/ericf/express-handlebars), and my first serious attempt at making something with [Bootstrap](http://getbootstrap.com/css/).
 
+###### Note: a "leaf" is a memo. Since the project is named after a tree, I thought it might be cute to name the memos "leaves".
+
 Installation steps:
 ```
 $ git clone git@github.com:echo35/Sakura-Notebook.git
