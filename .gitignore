@@ -1,0 +1,3 @@
+node_modules/
+secretVars.js
+tests.js
