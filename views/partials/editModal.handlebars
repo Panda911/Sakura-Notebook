@@ -1,0 +1,21 @@
+<div class="modal fade" id="editDialog" role="dialog" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Edit Leaf</h4>
+			</div>
+			<div class="modal-body">
+				<p><img height="16px" src="/clock-icon.png"> <date id="leafDate"></date></p><br>
+				<textarea class="form-control" rows="5" id="leafContent" disabled="true"></textarea>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-success disabled" style="float:left" onclick="commitChangesToLeaf();" id="saveBtn" disabled>Save</button>
+				<button type="button" class="btn btn-danger disabled" style="float:left" onclick="cancelChangesToLeaf();" id="cancelBtn" disabled>Cancel</button>
+				<button type="button" class="btn btn-default" onclick="editLeaf();" id="editBtn">Edit</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal" onclick="deleteLeaf();" id="deleteBtn">Delete</button>
+				<button type="button" class="btn btn-default" data-keyboard="true" data-dismiss="modal" onclick="if (changed) location.reload();" id="closeBtn">Close</button>
+			</div>
+		</div>
+	</div>
+</div>

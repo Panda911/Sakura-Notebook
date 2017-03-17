@@ -1,0 +1,26 @@
+<script type="text/javascript" src="/js/leafEditorModal.js"></script>
+<script type="text/javascript" src="/js/leafCreatorModal.js"></script>
+<script type="text/javascript" src="/js/miscFunctions.js"></script>
+<div class="container">
+	<br>
+	<div class="row">
+		<div class="col-md-2">
+			<button style="width: 100%" type="button" class="btn btn-success" data-toggle="modal" data-target="#creatorDialog">New</button>
+		</div>
+		{{>searchForm}}
+	</div>
+	<br>
+{{>editModal}}
+{{>creatorModal}}
+  <table id="zaTable" class="table table-hover">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Content</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{{table}}}
+    </tbody>
+  </table>
+</div>
